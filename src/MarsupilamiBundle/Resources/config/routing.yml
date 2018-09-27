@@ -1,0 +1,17 @@
+
+marsupilami_homepage:
+    path:     /
+    defaults: { _controller: MarsupilamiBundle:Default:index }
+marsupilami_Modifier:
+    path:     /modifier/{id}
+    defaults: { _controller: MarsupilamiBundle:Default:modifier }
+marsupilami_amis:
+    path:     /amis
+    defaults: { _controller: MarsupilamiBundle:Default:amis }
+marsupilami_add_amis:
+    path:     /addamis/{id}
+    defaults: { _controller: MarsupilamiBundle:Default:addamis }
+marsupilami_Supp_amis:
+    path:     /Suppamis/{id}
+    defaults: { _controller: MarsupilamiBundle:Default:Supp}
+
